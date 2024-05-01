@@ -1,0 +1,260 @@
+/*
+filename: style.css
+author: Nishant Carvalho
+student id: 105015672
+purpose: CWA assign1
+*/
+
+nav a {text-decoration: firebrick;
+        padding: 0.2em 0.6em;
+        border: 4px solid #ccc;
+        margin-right: 10px;
+} 
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+}
+nav a:hover{
+  background-color: lightsalmon;
+}
+
+
+body {
+          font-family: Arial, sans-serif;
+          margin: 0;
+          padding: 0;
+      }
+#first{
+  background-image: url(../styles/images/ai1.jpg);
+          background-repeat: no-repeat;
+          background-size:cover;
+          color: white;
+}
+header {
+          background-color: cadetblue;
+          padding: 20px;
+          text-align: center;
+      }
+      .container {
+          max-width: 1200px;
+          margin: 0 auto;
+          padding: 20px;
+      }
+      .graphic {
+          width: 100%;
+          height: auto;
+      }
+      .description {
+          text-align: justify;
+          margin-top: 20px;
+      }
+
+.des{ text-align: center;
+  color: white;
+  font-size:xx-large;
+}
+
+#h1{color:crimson;
+text-align: center;
+text-decoration: solid;
+}
+
+.f1{
+  padding-left: 5em;
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-around;
+}
+.image-container figure {
+  margin: 10px 0;
+}
+footer {
+  background-color:cadetblue;
+  color: black;
+  text-align: center;
+  padding: 20px;
+  position:relative;
+  bottom: 0;
+  left: 0;
+  width:auto;
+}
+footer a {
+  text-align: center;
+  color: black;
+  text-decoration: none;
+}
+#con:hover{
+  background-color: lightsalmon;
+}
+
+h2{
+  text-align: center;
+  font-variant: small-caps;
+}
+.sec{
+  border: solid;
+  width: 65%;
+  
+}
+.cen{
+  text-align: center;
+}
+.par{
+  text-align: left;
+}
+.special{color: red; font-weight: bold;}
+.ai{
+  text-align: left;
+}
+#disc{
+  list-style-type: square;
+}
+#a1 {
+  border: 4px inset purple;
+  border-color: blue;
+  border-radius: 14px;
+  margin: 1em;
+  padding: 1em;
+  width: 25%;
+  background: url(../images/fade.jpg) repeat-x top left;
+  float: right;
+  box-shadow: 10px 10px 5px #aaa;
+  background-image: url(../images/hir.jpg);
+}
+
+#a2{
+  border-color: red;
+  border: 4px inset purple;
+  border-radius: 14px;
+  margin: 1em;
+  padding: 1em;
+  width: 25%;
+  box-shadow: 10px 10px 5px #aaa;
+  margin-left: 50%;
+  float: right;
+  box-shadow: 10px 10px 5px #aaa;
+  background-color: lightskyblue;
+}
+
+.alpha{list-style-type: upper-alpha;}
+
+#gen{
+  width: 50%;
+}
+#add{
+  margin: 1em;
+  padding: 1em;
+  width: 40%;
+  float: right;
+  margin-top: -15.5%;
+}
+#app {
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  float: right;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+  color: white;
+  background-color: blue;
+}
+#res {
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  float: right;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+  color: white;
+  background-color: orange;
+}
+#abt{
+  padding: 15px 15px;
+}
+dl {
+  display: grid;
+  grid-template-columns: max-content auto;
+}
+
+dt {
+  grid-column-start: 1;
+  font-weight: bolder;
+}
+
+dd {
+  grid-column-start: 2;
+}
+figure{
+  float: right;
+  width: 30%;
+  margin: 10px;
+
+}
+img{
+  width:60%;
+  height: auto;
+  margin: 100px;
+  border-color: red;
+  border: 4px inset yellow;
+}
+#tp{
+  text-align: center;
+}
+caption{
+  font-weight:bold;
+}
+
+table{
+  border:1px solid black;
+  width:95%;
+  margin: 10px;
+}
+
+th {
+  text-align: center;
+  border:1px solid black;
+  padding: 5px;
+  font-weight: bold;
+
+}
+
+td {
+  text-align: center;
+  border:1px solid black;
+  padding: 5px;
+}
+.COS60004{
+  background-color: blue;
+  color: white;
+}
+.COS60002{
+  background-color: bisque;
+}
+.COS60008{
+  background-color: aqua;
+}
+#yel{
+  background-color: yellow;
+}
+
+.enh{
+  text-align: center;
+}
+#h1{   width: 500px;
+  height: 50px;
+  background: white;
+  position: relative;
+  animation: mymove 5s infinite;
+  border-radius: 12px;
+}
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 750px;}
+}

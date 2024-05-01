@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="description" content="Demonstrates some basic HTML content elements and CSS" />
+  <meta name="keywords" content="HTML5, tags" />
+  <meta name="author" content="A Lecturer"  />
+  <title>Designing Tomorrow: AI Systems for a Smarter Future</title>
+  <link href="styles/style.css" rel="stylesheet"/>
+  
+</head>
+<!-- This is a comment. Indenting child elements makes the markup much more readable -->
+<body>
+   <header>
+     
+     <nav>
+         <a href="index.html" class="h">HOME</a> 
+         <a href="about.html" class="h">ABOUT</a> 
+         <a href="jobs.html" class="h">JOBS</a> 
+         <a href="apply.html" class="h">APPLY</a>
+         <a href="enhancements.html" class="h">ENHANCEMENTS</a>
+      </nav>
+   
+   </header>
+   <h2>Job Application form</h2>
+   <p class="cen"> Please fill out the form below and our team will review it as soon as possible.</p>
+   <form method="post" action="http://mercury.swin.edu.au/it000000/formtest.php">
+    <fieldset id="gen">
+      <legend>Your Details</legend>
+      <label for="jrn">Job Reference Number:*</label>
+      <input type="text" placeholder="Reference ID" id="jrn" name="Reference_number" maxlength="5" size="30" pattern="[a-zA-Z0-9]{5}" required><br><br>
+  
+      <label for="name">First Name:*</label>
+      <input type="text" placeholder="Enter your first name" id="name" name="First_name" pattern="[a-zA-Z]{1,20}" size="30"><br><br>
+  
+      <label for="lname">Last Name:*</label>
+      <input type="text" placeholder="Enter your last name" id="lname" name="Last_name" pattern="[a-zA-Z]{1,20}" size="30"><br><br>
+  
+      <label for="dob">Date of Birth:*</label>
+      <input type="date" id="dob" name="DOB" required>
+  
+    </fieldset>
+   <aside id="add">
+    <fieldset>
+      <legend>Address Details</legend>
+      <label for="saddr">Street Address:*</label>
+      <input type="text" placeholder="Enter your street name" id="saddr" name="Street_add" pattern="[a-zA-Z]{1,20}" size="45" maxlength="40" required><br><br>
+
+      <label for="st">Suburb/Town:*</label>
+      <input type="text" placeholder="Enter your suburb/town" id="st" name="Town" pattern="[a-zA-Z]{1,20}" size="45" maxlength="40" required><br><br>
+    
+      <label for="pc">PostCode:*</label>
+      <input type="text" id="pc" name="pc]ostcode" pattern="[0-9]{4}" required placeholder="Enter post code" size="45" maxlength="4"> <br>
+      <br>
+      <label for="state">State:*</label> 
+			<select required name="State" id="state">
+				<option value="">Please select a state</option>			
+				<option value="Victoria">VIC</option>
+				<option value="New South Wales">NSW</option>
+				<option value="Queensland">QLD</option>
+        <option value="Northern Territory">NT</option>
+        <option value="Western Australia">WA</option>
+        <option value="South Australia">SA</option>
+        <option value="Tasmania">TAS</option>
+        <option value="Australian Capital Territory">ACT</option>
+			</select> 
+    </fieldset>
+<br>
+    <fieldset>
+      <legend>Contact Details</legend>
+      <label for="email">Email address:</label>
+      <input type="email" id="email" name="email" required size="45"><br>
+<br>
+      <label for="phone">Phone number:</label>
+      <input type="text" id="phone" name="phone" pattern="[0-9\s]{8,12}" required size="45">
+
+    </fieldset>
+
+
+  </aside>
+
+
+<br>
+  <fieldset class="gen">
+    <legend>Select Gender*</legend>
+    	
+		<label for="female">Female</label>
+    <input type="radio" id="female" name="Gender" value="female" required> &nbsp; &nbsp; &nbsp; &nbsp;
+
+		
+		<label for="male">Male</label>
+    <input type="radio" id="male" name="Gender" value="male" required> <br>
+<br>
+
+	</fieldset>
+  <br>
+  <fieldset class="gen">
+    <legend>Skills</legend>
+  
+    <label for="html">HTML</label>
+          <input type="checkbox" id="html" name="category[]" value="html" checked="checked" />
+      <label for="css">CSS</label>
+          <input type="checkbox" id="css" name="category[]" value="css" />
+      <label for="java">JavaScript</label>
+          <input type="checkbox" id="java" name="category[]" value="java" />
+      <label for="php">PHP</label>
+          <input type="checkbox" id="php" name="category[]" value="php" />
+      <label for="sql">MySQL</label>
+              <input type="checkbox" id="sql" name="category[]" value="sql" />
+  
+  
+        <p><label for="other">Other Skills</label></p>
+              <textarea id="other" name="other skills" rows="5" cols="60" placeholder="Mention other skills if any.."></textarea>
+  </fieldset>
+  <br>
+  <input type="reset" id="res" value="Reset">
+  <input type= "submit" id="app" value="Apply">
+  <br> <br>
+ </form>
+<br>
+<br>
+   <footer>
+      <p>
+        Copyright &copy; 2024 AI SYSTEM DESIGNER<br>
+        All rights reserved.<br>
+        <a href="mailto:105015672.swinburne.student.edu.au" id="con">Contact Us via email</a>
+      </p>
+    </footer>
+</body>
+
+</html>
